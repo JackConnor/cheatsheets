@@ -83,3 +83,11 @@ function simpleSymbols(str) {
 }
 
 simpleSymbols("+d+=+g+===+f+==+f+");
+
+function timeConvert(num) {
+  var hour = Math.floor(num/60);
+  var minute = num - (hour*60);
+  console.log(hour + ":" + minute);
+}
+
+timeConvert(650);
