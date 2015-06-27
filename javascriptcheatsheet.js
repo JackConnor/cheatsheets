@@ -91,3 +91,19 @@ function timeConvert(num) {
 }
 
 timeConvert(650);
+
+Simple function that compares two numbers and tells you whether the first is bigger than the second by returning true or false:
+
+
+function compareNumbers(int1, int2) {
+  if(int1>int2) {
+    console.log(true);
+  }
+  else if(int2 >int1) {
+    console.log(false);
+  }
+  else {
+    console.log(-1);
+  }
+}
+compareNumbers(9, 7)
